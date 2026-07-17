@@ -1,3 +1,7 @@
 INFO pgn-test [analyzer] Timestamp fixed
 INFO pgn-test [analyzer] Detected FAST format with all frames on one line
 ERROR pgn-test [analyzer] PGN 129540 has 2 missing fields in repeating set
+ERROR pgn-test [analyzer] Field Value: cannot derive variable length for PGN 0 field # 21
+ERROR pgn-test [analyzer] PGN 126208 analysis error
+ERROR pgn-test [analyzer] Field Selection Value: cannot derive variable length for PGN 0 field # 11
+ERROR pgn-test [analyzer] PGN 126208 analysis error

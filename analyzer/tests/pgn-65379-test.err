@@ -1,0 +1,4 @@
+ERROR pgn-test [analyzer] Field Value 1: cannot derive variable length for PGN 0 field # 17
+ERROR pgn-test [analyzer] PGN 126208 analysis error
+ERROR pgn-test [analyzer] Field Value 1: cannot derive variable length for PGN 0 field # 17
+ERROR pgn-test [analyzer] PGN 126208 analysis error

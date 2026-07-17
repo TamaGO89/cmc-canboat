@@ -37,13 +37,13 @@ BU_:
 
 
 BO_ 2565341438 PGN_59392_isoAcknowledgement: 8 Vector__XXX
- SG_ pgn : 40|24@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ pgnData : 40|24@1+ (1,0) [0|0] "" Vector__XXX
  SG_ reserved : 16|24@1+ (1,0) [0|0] "" Vector__XXX
  SG_ groupFunction : 8|8@1+ (1,0) [0|0] "" Vector__XXX
  SG_ control : 0|8@1+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 2565472510 PGN_59904_isoRequest: 8 Vector__XXX
- SG_ pgn : 0|24@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ pgnData : 0|24@1+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 2565538046 PGN_60160_isoTransportProtocolDa: 8 Vector__XXX
  SG_ data : 8|56@1+ (1,0) [0|0] "" Vector__XXX
@@ -1533,7 +1533,7 @@ BO_ 2583658750 PGN_130944_airmarPost: 8 Vector__XXX
 
 
 CM_ BO_ 2565341438 "ISO Acknowledgement";
-CM_ SG_ 2565341438 pgn "Parameter Group Number of requested information";
+CM_ SG_ 2565341438 pgnData "Parameter Group Number of requested information";
 CM_ BO_ 2565472510 "ISO Request";
 CM_ BO_ 2565538046 "ISO Transport Protocol, Data Transfer";
 CM_ SG_ 2565538046 data "Multi-packet packetized data - 56 bits organized as seven 8-bit bytes, each of the bytes is transmitted in the same order as it would in a standard (i.e., single frame) message. Unused bytes shall be filled with 0xFF.";

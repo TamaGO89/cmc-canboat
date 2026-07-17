@@ -3256,8 +3256,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>4</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Parameter Group Number of requested information</Description>
           <BitLength>24</BitLength>
           <BitOffset>40</BitOffset>
@@ -3283,8 +3283,8 @@ limitations under the License.
       <Fields>
         <Field>
           <Order>1</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>0</BitOffset>
           <BitStart>0</BitStart>
@@ -3405,8 +3405,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>5</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>40</BitOffset>
           <BitStart>0</BitStart>
@@ -3565,8 +3565,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>5</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>40</BitOffset>
           <BitStart>0</BitStart>
@@ -3645,8 +3645,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>5</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>40</BitOffset>
           <BitStart>0</BitStart>
@@ -3707,8 +3707,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>4</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>40</BitOffset>
           <BitStart>0</BitStart>
@@ -10866,8 +10866,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Requested PGN</Description>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
@@ -10981,8 +10981,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Commanded PGN</Description>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
@@ -11089,8 +11089,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Commanded PGN</Description>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
@@ -11198,8 +11198,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Commanded PGN</Description>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
@@ -11353,8 +11353,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Commanded PGN</Description>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
@@ -11515,8 +11515,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Commanded PGN</Description>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
@@ -11677,8 +11677,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <Description>Commanded PGN</Description>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
@@ -11831,8 +11831,8 @@ limitations under the License.
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
           <BitStart>0</BitStart>
@@ -34240,8 +34240,8 @@ The Default update rate of this PGN is autonomous, as it is dependant upon notif
         </Field>
         <Field>
           <Order>2</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>8</BitOffset>
           <BitStart>0</BitStart>
@@ -34400,8 +34400,8 @@ The Default update rate of this PGN is autonomous, as it is dependant upon notif
         </Field>
         <Field>
           <Order>6</Order>
-          <Id>pgn</Id>
-          <Name>PGN</Name>
+          <Id>pgnData</Id>
+          <Name>PGN Data</Name>
           <BitLength>24</BitLength>
           <BitOffset>88</BitOffset>
           <BitStart>0</BitStart>

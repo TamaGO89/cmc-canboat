@@ -1,6 +1,6 @@
 {
   "name": "@tamago89/pgns",
-  "version": "6.0.0-beta",
+  "version": "6.0.0-alpha",
   "description": "Json description of canboat supported pgns",
   "main": "pgns.json",
   "scripts": {
