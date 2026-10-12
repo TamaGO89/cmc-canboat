@@ -4,6 +4,7 @@
   "description": "Json description of canboat supported pgns",
   "main": "pgns.json",
   "scripts": {
+    "prepack": "make -C .. clean generated && jq -c -f \"./pgns-filter.jq\" \"../docs/canboat.json\" > \"./pgns.json\"",
     "changelog": "github-changes -o canboat -r pgns -a --only-pulls --use-commit-body --data=pulls  --tag-name=v$npm_package_version",
     "release": "git tag -d v$npm_package_version; npm run changelog && git add CHANGELOG.md && git commit -m 'chore: update changelog' && git tag v$npm_package_version && git push --tags && git push"
   },
@@ -30,5 +31,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/TamaGO89/cmc-canboat.git"
-  }
+  },
+  "packEnvs": [
+    "npm"
+  ]
 }
