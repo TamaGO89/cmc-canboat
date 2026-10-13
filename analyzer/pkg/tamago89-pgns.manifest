@@ -1,9 +1,0 @@
-{
-  "name": "@tamago89/pgns",
-  "version": "6.0.0-alpha",
-  "packed": "2026-10-12T10:41:22Z",
-  "gitSha": "3cc9d42",
-  "gitRef": "master",
-  "node": "v24.15.0",
-  "abi": 137
-}
